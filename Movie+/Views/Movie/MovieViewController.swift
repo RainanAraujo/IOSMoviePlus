@@ -120,7 +120,7 @@ class MovieViewController: UIViewController {
             coverView.topAnchor.constraint(equalTo: view.topAnchor),
             coverView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             coverView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            coverView.heightAnchor.constraint(equalToConstant: 350),
+            coverView.heightAnchor.constraint(equalToConstant: 370),
         ])
         
         NSLayoutConstraint.activate([
