@@ -63,7 +63,7 @@ class HomeViewController: UIViewController {
     
     private func fetchPokeAPI() {
         
-        let url = URL(string: "https://api.themoviedb.org/3/discover/movie?api_key=a351100c0c0e4c3a58eb56a255e10145&language=pt-BR")!
+        let url = URL(string: "https://api.themoviedb.org/3/discover/movie?api_key=a351100c0c0e4c3a58eb56a255e10145&language=en")!
         let request = URLRequest(url: url)
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
